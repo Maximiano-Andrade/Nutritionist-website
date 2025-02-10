@@ -2,7 +2,7 @@
 //Style 
 import './Banner.css'
 // img
-import imgMulher from '../../../assets/bannerHome/imageMulher.png'
+import imgMulher from '../../../assets/bannerHome/ImageMulher.png'
 import ImgPerfilUm from '../../../assets/bannerHome/perfilsImg/Image01.png'
 import ImgPerfilDois from '../../../assets/bannerHome/perfilsImg/Image02.png'
 import ImgPerfilTres from '../../../assets/bannerHome/perfilsImg/Image03.png'

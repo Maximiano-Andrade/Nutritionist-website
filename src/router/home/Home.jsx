@@ -2,7 +2,7 @@
 // Style
 import './Home.css'
 //page
-import Banner from '../home/banner/Banner'
+import Banner from '../../../src/router/home/banner/Banner'
 
 const Home = () => {
     return (
