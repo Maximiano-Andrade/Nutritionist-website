@@ -1,0 +1,169 @@
+.banner-main {
+    width: 100%;
+}
+
+.banner-container {
+    width: 100%;
+    height: 823px;
+    gap: 50px;
+    display: flex;
+}
+
+.banner-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 0px 50px 0px;
+    background-color: #dcf1a7;
+    background-image: url('../../../assets/bannerHomer/Image.png');
+}
+
+.banner-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner-infos {
+    width: 100%;
+    height: 100%;
+    padding: 0px 162px 0px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-infos .container-banner-info {
+    gap: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-banner-info .container-title-descri-btns {
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-title-descri-btns .banner-title-descri {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-title-descri .banner-subTitle {
+    gap: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-sub {
+    display: flex;
+}
+
+.banner-subTitle .banner-sub h2 {
+    color: #1a3129;
+    font-size: 28px;
+    font-weight: 600;
+    border-bottom: 3px solid #CBEA7B;
+}
+
+.banner-subTitle h1 {
+    color: #1a3129;
+    font-size: 58px;
+    font-weight: 700;
+}
+
+.banner-title-descri .banner-descri p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333333;
+}
+
+.container-title-descri-btns .banner-btns {
+    gap: 20px;
+    display: flex;
+}
+
+.banner-btns .btn-today {
+    padding: 16px 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #262626;
+    background-color: #CBEA7B;
+    border: none;
+    transition: 0.9s;
+}
+
+.banner-btns .btn-today:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.banner-btns .btn-demo {
+    padding: 16px 24px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #262626;
+    background-color: #F6FBE9;
+    border: 1px solid #E5F5BD;
+    transition: 0.9s;
+}
+
+.banner-btns .btn-demo:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.banner-perfils {
+    gap: 8px;
+    display: flex;
+    align-items: center;
+
+}
+
+.banner-perfil {
+    display: flex;
+    position: relative;
+    padding: 8px 16px;
+    width: 130px;
+    height: 66px;
+    border: 1px solid #CBEA7B;
+    border-radius: 58px;
+}
+
+.perfil {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+
+.banner-perfil .pf-1 {
+    left: 10px;
+}
+
+.banner-perfil .pf-2 {
+    right: 38px;
+}
+
+.banner-perfil .pf-3 {
+    right: 10px;
+}
+
+.perfil img {
+    width: 100%;
+    height: 100%;
+    border-radius: 53px;
+    object-fit: cover;
+}
+
+.banner-perfils span {
+    color: #468671;
+    font-weight: bold;
+}
+
+.banner-perfils p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #234338;
+}
