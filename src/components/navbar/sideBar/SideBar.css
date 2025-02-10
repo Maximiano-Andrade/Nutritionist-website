@@ -1,0 +1,48 @@
+.Sidebar-main {
+    position: absolute;
+    right: 0px;
+    top: 77px;
+    z-index: 1;
+}
+
+.Sidebar-main .Siderbar-container-links {
+    width: 200px;
+    height: 800px;
+    gap: 20px;
+    background-color: #1A3129;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Sidebar-main .Siderbar-container-links .links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Sidebar-main .Siderbar-container-links .links li a {
+    font-size: 20px;
+}
+
+.Sidebar-main .Siderbar-container-links .navBar-btn a button {
+    background-color: #CBEA7B;
+    border-radius: 8px;
+    padding: 12px 24px;
+    border: none;
+    font-weight: 600;
+    color: #262626;
+    transition: 0.9s;
+}
+
+.Sidebar-main .Siderbar-container-links .navBar-btn a button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+
+@media (max-width: 390px) {
+    .Sidebar-main {
+        top: 74px;
+    }
+}

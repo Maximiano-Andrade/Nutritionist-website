@@ -1,0 +1,120 @@
+.join-main {
+    width: 100%;
+    height: 72px;
+    padding: 14px 160px;
+    background-color: #1A3129;
+    border-bottom: 1px solid #234338;
+}
+
+.join-Demo {
+    height: 44px;
+    border-radius: 6px;
+    background-color: #234338;
+    border: 1px solid #234338;
+
+    display: flex;
+    justify-content: center;
+}
+
+.join-Demo .join-infos {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.join-infos .join-btn {
+    gap: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.join-btn .btn {
+    gap: 6px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: #234338;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+.join-btn .btn div {
+    display: flex;
+}
+
+.join-btn svg {
+    font-size: 24px;
+}
+
+.join-infos .join-img {
+    width: 200px;
+    height: 100%;
+    background-image: url('../../assets/joinDemoImg/path.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 20px;
+
+}
+
+
+/* <----------RESPONSIVIDADE LAPTOP----------> */
+@media (max-width: 1440px) {
+    .join-main {
+        height: 68px;
+        padding: 14px 80px;
+    }
+
+    .join-Demo {
+        height: 40px;
+    }
+
+    .join-infos .join-btn {
+        gap: 14px;
+    }
+
+    .join-btn .btn {
+        font-size: 16px;
+    }
+
+    .join-btn svg {
+        font-size: 20px;
+    }
+
+
+}
+
+/* <----------RESPONSIVIDADE CELULAR----------> */
+@media (max-width: 390px) {
+
+    .join-main {
+        height: 94px;
+        padding: 40px 16px 14px 16px;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+    }
+
+    .join-btn .btn {
+        font-size: 14px;
+    }
+
+    .join-infos .join-img {
+        position: absolute;
+        z-index: -1;
+    }
+
+    .join-infos .img-01 {
+        left: -116px;
+        bottom: -49px;
+    }
+
+    .join-infos .img-02 {
+        right: -116px;
+        bottom: -49px;
+        transform: rotateY(190deg);
+    }
+
+}
