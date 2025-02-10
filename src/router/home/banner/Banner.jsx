@@ -2,10 +2,10 @@
 //Style 
 import './Banner.css'
 // img
-import imgMulher from '../../../assets/bannerHomer/imageMulher.png'
-import ImgPerfilUm from '../../../assets/bannerHomer/perfilsImg/Image01.png'
-import ImgPerfilDois from '../../../assets/bannerHomer/perfilsImg/Image02.png'
-import ImgPerfilTres from '../../../assets/bannerHomer/perfilsImg/Image03.png'
+import imgMulher from '../../../assets/bannerHome/imageMulher.png'
+import ImgPerfilUm from '../../../assets/bannerHome/perfilsImg/Image01.png'
+import ImgPerfilDois from '../../../assets/bannerHome/perfilsImg/Image02.png'
+import ImgPerfilTres from '../../../assets/bannerHome/perfilsImg/Image03.png'
 
 const Banner = () => {
   return (
