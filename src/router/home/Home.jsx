@@ -2,7 +2,7 @@
 // Style
 import './Home.css'
 //page
-import Banner from './banner/Banner'
+import Banner from '../home/banner/Banner'
 
 const Home = () => {
     return (
