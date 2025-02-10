@@ -86,6 +86,72 @@
 
 }
 
+/* <----------RESPONSIVIDADE TABLET----------> */
+@media (max-width: 884px) {
+
+    .join-main {
+        height: 94px;
+        padding: 40px 16px 14px 16px;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+    }
+
+    .join-btn .btn {
+        font-size: 14px;
+    }
+
+    .join-infos .join-img {
+        position: absolute;
+        z-index: -1;
+    }
+
+    .join-infos .img-01 {
+        left: -116px;
+        bottom: -49px;
+    }
+
+    .join-infos .img-02 {
+        right: -116px;
+        bottom: -49px;
+        transform: rotateY(190deg);
+    }
+
+}
+
+/* <----------RESPONSIVIDADE CELULAR----------> */
+@media (max-width: 612px) {
+
+    .join-main {
+        height: 94px;
+        padding: 40px 16px 14px 16px;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+    }
+
+    .join-btn .btn {
+        font-size: 14px;
+    }
+
+    .join-infos .join-img {
+        position: absolute;
+        z-index: -1;
+    }
+
+    .join-infos .img-01 {
+        left: -116px;
+        bottom: -49px;
+    }
+
+    .join-infos .img-02 {
+        right: -116px;
+        bottom: -49px;
+        transform: rotateY(190deg);
+    }
+
+} 
+
 /* <----------RESPONSIVIDADE CELULAR----------> */
 @media (max-width: 390px) {
 
