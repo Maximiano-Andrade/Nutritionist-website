@@ -1,0 +1,300 @@
+.features-main {
+    width: 100%;
+    padding: 80px 162px;
+}
+
+.features-main .features-container {
+    width: 100%;
+    height: 1008px;
+    gap: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.features-container .features-title {
+    height: 109px;
+    padding: 0px 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features-title .titles {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.features-title .titles .title {
+    height: 72px;
+}
+
+.features-title .titles .subTitle {
+    height: 27px;
+}
+
+.features-title .titles .title,
+.features-title .titles .subTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features-title .titles .title h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #262626;
+}
+
+.features-title .titles .subTitle p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333333;
+}
+
+.features-cards {
+    height: 819px;
+}
+
+.features-cards .container-cards {
+    grid-gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.container-cards .card {
+    padding: 40px 50px;
+    gap: 24px;
+    border-radius: 12px;
+    border: 1px solid #E5F5BD;
+    background-color: #F6FBE9;
+    display: flex;
+    flex-direction: column;
+}
+
+.card .feature-title-icon {
+    gap: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.card .feature-title-icon .card-feature-icon {
+    width: 68px;
+    height: 68px;
+    border-radius: 8px;
+    background-color: #CBEA7B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .feature-title-icon .card-feature-icon svg {
+    font-size: 40px;
+    color: #262626;
+}
+
+.card .feature-title-icon .card-feature-title h2 {
+    font-size: 24px;
+    color: #262626;
+    font-weight: 600;
+}
+
+.container-cards .card .card-feature-descrip p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* <----------RESPONSIVIDADE LAPTOP----------> */
+@media (max-width: 1440px) {
+
+    .features-main {
+        padding: 60px 80px;
+    }
+
+    .features-main .features-container {
+        height: 889px;
+        gap: 60px;
+    }
+
+    .features-container .features-title {
+        height: 87px;
+        padding: 0px 250px;
+    }
+
+    .features-title .titles {
+        gap: 6px;
+    }
+
+    .features-title .titles .title {
+        height: 57px;
+    }
+
+    .features-title .titles .subTitle {
+        height: 24px;
+    }
+
+    .features-title .titles .title h1 {
+        font-size: 38px;
+    }
+
+    .features-title .titles .subTitle p {
+        font-size: 16px;
+    }
+
+    /* CARDS ITENS */
+    .features-cards {
+        height: 742px;
+    }
+
+    .features-cards .container-cards {
+        grid-gap: 20px;
+    }
+
+    .container-cards .card {
+        padding: 40px;
+        gap: 20px;
+        border-radius: 10px;
+    }
+
+    .card .feature-title-icon {
+        gap: 10px;
+    }
+
+    .card .feature-title-icon .card-feature-icon {
+        width: 54px;
+        height: 54px;
+        border-radius: 6px;
+    }
+
+    .card .feature-title-icon .card-feature-icon svg {
+        font-size: 30px;
+    }
+
+    .card .feature-title-icon .card-feature-title h2 {
+        font-size: 20px;
+    }
+
+    .container-cards .card .card-feature-descrip p {
+        font-size: 14px;
+    }
+
+}
+
+/* <----------RESPONSIVIDADE TABLET----------> */
+
+@media (max-width: 1000px) {
+
+    .features-main {
+        padding: 50px 80px;
+    }
+
+    .features-main .features-container {
+        height: 900px;
+        gap: 40px;
+    }
+
+    .features-container .features-title {
+        height: 100px;
+        padding: 0px 100px;
+    }
+
+    .features-title .titles .title {
+        height: 50px;
+    }
+
+    .features-title .titles .subTitle {
+        height: 34px;
+    }
+
+    .features-title .titles .title h1 {
+        font-size: 30px;
+    }
+
+    .features-title .titles .subTitle p {
+        text-align: center;
+    }
+
+    /* CARDS ITENS */
+    .features-cards {
+        height: 910px;
+    }
+
+    .container-cards .card {
+        padding: 30px;
+        gap: 16px;
+        border-radius: 10px;
+    }
+
+    .card .feature-title-icon .card-feature-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .card .feature-title-icon .card-feature-icon svg {
+        font-size: 28px;
+    }
+
+    .card .feature-title-icon .card-feature-title h2 {
+        font-size: 18px;
+    }
+
+}
+
+/* <----------RESPONSIVIDADE CELULAR----------> */
+
+@media (max-width: 612px) {
+
+    .features-main {
+        padding: 60px 16px;
+    }
+
+    .features-main .features-container {
+        height: 1653px;
+        gap: 50px;
+    }
+
+    .features-container .features-title {
+        height: 90px;
+        padding: 0px;
+    }
+
+    .features-title .titles .title {
+        height: 42px;
+    }
+
+    .features-title .titles .subTitle {
+        height: 42px;
+    }
+
+    .features-title .titles .title h1 {
+        font-size: 28px;
+    }
+
+    .features-title .titles .subTitle p {
+        font-size: 14px;
+    }
+
+    .features-cards {
+        height: 1513px;
+    }
+
+    .features-cards .container-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .container-cards .card {
+        height: 229px;
+    }
+
+    .card .feature-title-icon .card-feature-icon {
+        width: 48px;
+        height: 48px;
+
+    }
+
+    .card .feature-title-icon .card-feature-icon svg {
+        font-size: 24px;
+    }
+
+
+}
