@@ -5,6 +5,7 @@ import './Home.css'
 import Banner from '../../../src/router/home/banner/Banner'
 import Features from './features/Features'
 import OurBlogs from './ourBlogs/OurBlogs'
+import OurTestimonials from './ourTestimonials/OurTestimonials'
 
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
             <Banner />
             <Features/>
             <OurBlogs/>
+            <OurTestimonials/>
         </div>
     )
 }
