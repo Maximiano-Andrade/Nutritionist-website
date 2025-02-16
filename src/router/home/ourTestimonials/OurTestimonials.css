@@ -135,7 +135,7 @@
     position: absolute;
 }
 
-.btn {
+.testimonials-controler .card-button .btn {
     width: 58px !important;
     height: 58px !important;
     background-color: #F6FBE9;
@@ -155,7 +155,7 @@
 
 .swiper-pagination .swiper-pagination-bullet {
     background-color: #E5F5BD;
-    opacity: none !important;
+    opacity: 1 !important;
 }
 
 .swiper-pagination .swiper-pagination-bullet-active {
