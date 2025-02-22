@@ -87,21 +87,24 @@ const OurTestimonials = () => {
                         }
                         modules={[Pagination, Navigation]}>
                         {TestimonialsItems.map((item) => (
-                            <SwiperSlide key={item.id} className='card'>
-                                <div className="testimonials-icon-descript">
+                            <SwiperSlide key={item.id}>
+                                <div className="card">
+                                    <div className="testimonials-icon-descript">
                                     <div className="testimonials-card-icon">
                                         <RiDoubleQuotesL />
                                     </div>
                                     <div className="testimonials-card-decript">
                                         <p>{item.comment}</p>
                                     </div>
-                                </div>
-                                <div className="testimonials-card-perfil">
+                                    </div>
+                            
+                                    <div className="testimonials-card-perfil">
                                     <div className="testimonials-perfil-img">
                                         <img src={item.img} alt={item.name} />
                                     </div>
                                     <div className="testimonials-card-name">
                                         <h3>{item.name}</h3>
+                                    </div>
                                     </div>
                                 </div>
                             </SwiperSlide>

@@ -214,12 +214,13 @@
         height: 408px;
     }
 
-    .swiper-wrapper .card {
+    .swiper .swiper-wrapper .card {
         border: 1px solid #EEF8D3;
         border-radius: 10px;
     }
 
     .swiper .swiper-wrapper .card .testimonials-icon-descript {
+        height: 230px;
         padding: 30px;
     }
 
@@ -234,6 +235,33 @@
 
     .card .testimonials-icon-descript .testimonials-card-decript p {
         font-size: 16px;
+    }
+
+    .swiper .testimonials-card-perfil {
+    padding: 20px 30px;
+    gap: 10px;
+    }
+
+    .testimonials-card-perfil .testimonials-perfil-img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .testimonials-card-perfil .testimonials-card-name h3 {
+        font-size: 16px;
+    }
+
+    .testimonials-controler {
+        height: 48px;
+    }
+
+    .testimonials-controler .card-button {
+        width: 20%;
+    }
+
+    .testimonials-controler .card-button .btn {
+        width: 48px !important;
+  height: 48px !important;
     }
 
 }
