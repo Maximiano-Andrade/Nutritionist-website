@@ -72,9 +72,22 @@ const OurTestimonials = () => {
 
                 <div className="testimonials-card-carrossel">
                     <Swiper
-                        slidesPerView={3}
-                        spaceBetween={20}
+                        // slidesPerView={3}
+                        // spaceBetween={20}
                         clickable={true}
+                        breakpoints={
+                            {
+                            100:{
+                                slidesPerView:1,
+                                spaceBetween: 19,
+                            },
+                            
+                                1000: {
+                                    slidesPerView:3,
+                                    spaceBetween: 19,
+                                }
+                            }
+                        }
                         navigation={{
                             nextEl: '.swiper-button-next',
                             prevEl: '.swiper-button-prev',
@@ -90,21 +103,21 @@ const OurTestimonials = () => {
                             <SwiperSlide key={item.id}>
                                 <div className="card">
                                     <div className="testimonials-icon-descript">
-                                    <div className="testimonials-card-icon">
-                                        <RiDoubleQuotesL />
+                                        <div className="testimonials-card-icon">
+                                            <RiDoubleQuotesL />
+                                        </div>
+                                        <div className="testimonials-card-decript">
+                                            <p>{item.comment}</p>
+                                        </div>
                                     </div>
-                                    <div className="testimonials-card-decript">
-                                        <p>{item.comment}</p>
-                                    </div>
-                                    </div>
-                            
+
                                     <div className="testimonials-card-perfil">
-                                    <div className="testimonials-perfil-img">
-                                        <img src={item.img} alt={item.name} />
-                                    </div>
-                                    <div className="testimonials-card-name">
-                                        <h3>{item.name}</h3>
-                                    </div>
+                                        <div className="testimonials-perfil-img">
+                                            <img src={item.img} alt={item.name} />
+                                        </div>
+                                        <div className="testimonials-card-name">
+                                            <h3>{item.name}</h3>
+                                        </div>
                                     </div>
                                 </div>
                             </SwiperSlide>

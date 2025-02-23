@@ -220,7 +220,6 @@
     }
 
     .swiper .swiper-wrapper .card .testimonials-icon-descript {
-        height: 230px;
         padding: 30px;
     }
 
@@ -238,8 +237,8 @@
     }
 
     .swiper .testimonials-card-perfil {
-    padding: 20px 30px;
-    gap: 10px;
+        padding: 20px 30px;
+        gap: 10px;
     }
 
     .testimonials-card-perfil .testimonials-perfil-img {
@@ -261,15 +260,110 @@
 
     .testimonials-controler .card-button .btn {
         width: 48px !important;
-  height: 48px !important;
+        height: 48px !important;
     }
 
 }
 
 /* <----------RESPONSIVIDADE TABLET----------> */
 
-@media (max-width: 1000px) {}
+@media (max-width: 1000px) {
+    .ourTestimonials-conatiner {
+        gap: 50px;
+    }
+
+    .ourTestimonials-conatiner .ourTestimonials-title-subTitle {
+        padding: 0px 74px;
+    }
+
+    .ourTestimonials-conatiner .testimonials-card-carrossel {
+        height: 420px;
+    }
+
+    .swiper .swiper-wrapper .card .testimonials-icon-descript {
+        padding: 18px;
+        gap: 24px;
+    }
+
+
+    .swiper .testimonials-card-perfil {
+        padding: 20px 18px;
+    }
+
+    .testimonials-card-perfil .testimonials-perfil-img {
+        width: 40px;
+        height: 40px;
+    }
+
+}
 
 /* <----------RESPONSIVIDADE CELULAR----------> */
 
-@media (max-width: 612px) {}
+@media (max-width: 612px) {
+    .OurTestimonials-main {
+        padding: 10px 16px;
+    }
+
+    .ourTestimonials-conatiner {
+        height: 521px;
+        gap: 50px;
+    }
+
+    .ourTestimonials-conatiner .ourTestimonials-title-subTitle {
+        height: 111px;
+        gap: 6px;
+        padding: 0px;
+    }
+
+    .ourTestimonials-title-subTitle .testimonials-title {
+        height: 42px;
+    }
+
+    .testimonials-title h1 {
+        font-size: 28px;
+    }
+
+    .ourTestimonials-title-subTitle .testimonials-subTitle {
+        height: 63px;
+    }
+
+    .testimonials-subTitle p {
+        font-size: 14px;
+    }
+
+    .ourTestimonials-conatiner .testimonials-card-carrossel {
+        height: 360px;
+    }
+
+    .testimonials-card-carrossel .swiper {
+        gap: 30px;
+    }
+
+    .swiper .swiper-wrapper .card .testimonials-icon-descript {
+        gap: 40px;
+        padding: 24px;
+    }
+
+    .card .testimonials-icon-descript .testimonials-card-decript p {
+        font-size: 14px;
+    }
+
+    .swiper .testimonials-card-perfil {
+        padding: 18px 24px;
+    }
+
+    .testimonials-card-perfil .testimonials-perfil-img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .testimonials-controler .card-button {
+        width: 69%;
+        height: 48px;
+    }
+
+    .swiper-pagination-bullets.swiper-pagination-horizontal {
+        bottom: 14px !important;
+    }
+
+}
