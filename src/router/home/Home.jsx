@@ -6,6 +6,7 @@ import Banner from '../../../src/router/home/banner/Banner'
 import Features from './features/Features'
 import OurBlogs from './ourBlogs/OurBlogs'
 import OurTestimonials from './ourTestimonials/OurTestimonials'
+import Pricings from "./pricings/Pricings.jsx";
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
             <Features/>
             <OurBlogs/>
             <OurTestimonials/>
+            <Pricings/>
         </div>
     )
 }

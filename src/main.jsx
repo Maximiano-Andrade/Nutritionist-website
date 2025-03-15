@@ -13,12 +13,15 @@ import Process from './router/process/Process.jsx'
 import Pricing from './router/pricing/Pricing.jsx'
 import Blog from './router/blog/Blog.jsx'
 import ContactUs from './router/contactUs/ContactUs.jsx'
+import ErrorPage from './router/error/PageErro.jsx'
 
 const router = createBrowserRouter([
   {
     path: "/",
+    errorElement: <ErrorPage />,
     element: <App />,
     children: [
+
       {
         path: "/",
         element: <Home/>

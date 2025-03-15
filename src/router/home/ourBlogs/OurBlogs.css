@@ -295,7 +295,6 @@
 }
 
 /* <----------RESPONSIVIDADE TABLET----------> */
-
 @media (max-width: 1000px) {
     
     .Blogs-container .OurBlogs-titlo-subTitle {
@@ -304,7 +303,6 @@
 }
 
 /* <----------RESPONSIVIDADE CELULAR----------> */
-
 @media (max-width: 612px) {
     .OurBlogs-main {
         padding: 0px 16px;
@@ -392,6 +390,4 @@
     .cart-img-title-icons .cart-img-title .cart-perfil-title p {
         font-size: 14px;
     }
-
-
 }

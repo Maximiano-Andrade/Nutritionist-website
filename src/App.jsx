@@ -10,8 +10,8 @@ function App() {
 
   return (
     <div className="Global">
-
       <JoinDemo />
+
       <NavBar />
       <div className="gobal-main">
         <Outlet />

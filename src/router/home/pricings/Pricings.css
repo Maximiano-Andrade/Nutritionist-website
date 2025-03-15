@@ -1,0 +1,194 @@
+.Page-Pricings {
+    width: 100%;
+    padding: 150px 162px 150px 162px;
+}
+
+.main-Pricings {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+
+}
+
+.main-Pricings .title-descript {
+    padding: 0px 300px;
+    height: 136px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.main-Pricings .title-descript .title {
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-Pricings .title-descript .title h1 {
+    color: #262626;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.main-Pricings .title-descript .descript {
+    /*width: 70%;*/
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.main-Pricings .title-descript .descript p {
+    color: #333333;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.main-Pricings .main-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.main-card .card-btns-span-btn {
+    width: 311px;
+    height: 108px;
+    gap: 14px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-btns-span-btn .btns {
+    padding: 10px 10px;
+    width: 233px;
+    height: 67px;
+    display: flex;
+    border: 1px solid #DCF1A7;
+    border-radius: 8px;
+}
+
+.card-btns-span-btn .btns .btn-mon button {
+    width: 114px;
+    height: 47px;
+    padding: 10px 24px;
+    background: #234338;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.card-btns-span-btn .btns .btn-yea button {
+    width: 99px;
+    height: 47px;
+    padding: 10px 24px;
+    background: rgba(203, 234, 123, 0);
+    border: none;
+    border-radius: 6px;
+    color: #4c4c4c;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.card-btns-span-btn .span-btn span {
+    color: #4C4C4D;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/*.conatiner-cards {*/
+/*    */
+/*}*/
+
+.conatiner-cards .cards-list {
+    display: flex;
+    gap: 30px;
+}
+
+.main-Pricings .cards-list .card {
+    padding: 50px;
+    background: #F6FBE9;
+    border-radius: 12px;
+    border: 1px solid #EEF8D3;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.cards-list .card .title-span {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.cards-list .card .title-span h2 {
+    color: #262626;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.cards-list .card .title-span span {
+    color: #4C4C4D;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.cards-list .card .descript p{
+    color: #262626;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.cards-list .card .price-btn{
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+}
+
+.cards-list .card .price-btn .price {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.cards-list .card .price-btn .price h2 {
+    color: #2C5446;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.cards-list .card .price-btn .price span {
+    color: #333333;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.cards-list .card .price-btn .btn {
+    height: 58px;
+    background: #CBEA7B;
+    padding: 18px 40px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.9s;
+}
+
+.cards-list .card .price-btn .btn:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    background: rgb(192, 236, 80);
+}
+
+.cards-list .card .price-btn .btn p {
+    color: #262626;
+    font-size: 18px;
+    font-weight: 600;
+}
